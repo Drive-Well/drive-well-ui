@@ -1,6 +1,6 @@
 # Drive Well - Workshop Management System
 
-A comprehensive **Workshop Management System** developed using **Angular 17** and **Spring Boot** to streamline daily operations at **Church Street Motors, Auckland, NZ**. This system effectively manages vehicle servicing tasks, customer invoicing, product inventory, real-time job tracking, and automated email notifications for live updates on job status. It also integrates **Spring Security OAuth** for role and permission-based authentication.
+A comprehensive **Workshop Management System** developed using **Angular 17** and **Spring Boot** to streamline daily operations at **Church Street Motors, Auckland, NZ**. This system effectively manages vehicle servicing tasks, customer invoicing, product, real-time job tracking, and automated email notifications for live updates on job status. It also integrates **Spring Security OAuth** for role and permission-based authentication.
 
 ## Features
 
@@ -9,76 +9,127 @@ A comprehensive **Workshop Management System** developed using **Angular 17** an
 - Shows **Revenue, Payments, Invoices, Visitors, Revenue Overview, and Inventory Insights**.
 
 #### Admin Dashboard
-![Admin Dashboard](./images/image.png)
+![Admin Dashboard](./Screenshots/1.png)
 
 ---
 
-### 2. Payments Management
-- Displays a list of invoices with payment details, including **Invoice No, Payment Reference, Payment Date, and Amount**.
-- Provides action buttons to **view, edit, or delete** payment entries.
+### 2. Vehicle Management
+- Supports **creating and editing vehicle details**.
 
-#### Payment List View
-![Payment List](./images/Screenshot_2025-02-14_175215.png)
+#### List Vehicles
+![List Vehicle](./Screenshots/15.png)
 
-#### View Payment Details Modal
-![View Payment](./images/Screenshot_2025-02-14_175241.png)
+#### Create Vehicle
+![Create Vehicle](./Screenshots/2.png)
+
+#### Edit Vehicle
+![Edit Vehicle](./Screenshots/3.png)
 
 ---
 
-### 3. Quotation Management
+### 3. Customer Management
+- Supports **creating and editing customer details** including **name, email, mobile number, and address**.
+
+#### List Customers
+![List Customer](./Screenshots/4.png)
+
+#### Create Customer
+![Create Customer](./Screenshots/5.png)
+
+#### Edit Customer
+![Edit Customer](./Screenshots/6.png)
+
+---
+
+### 4. Product Management
+- Supports **creating and editing product details** including.
+
+#### List Products
+![List Products](./Screenshots/7.png)
+
+#### View Product
+![View Products](./Screenshots/8.png)
+
+---
+
+### 5. Quotation Management
 - Enables **creating quotations** for customers with **products, quantities, and unit prices**.
 - Displays a summary of **quotation details and total amount**.
 - Supports **editing and listing quotations**.
 
-#### Create Quotation
-![Create Quotation](./images/Screenshot_2025-02-14_175314.png)
+#### List Quotations
+![List Quotation](./Screenshots/9.png)
 
-#### Quotation List
-![Quotation List](./images/Screenshot_2025-02-14_180835.png)
+#### Create Quotation
+![Create Quotation](./Screenshots/10.png)
 
 ---
 
-### 4. Invoice Management
+### 6. Invoice Management
 - Allows **creating invoices** for customers.
 - Includes fields for **products, quantities, unit prices, and total calculations**.
 - Displays **invoice summaries with subtotals, discounts, and payments received**.
 - Supports **editing invoices** and tracking customer payments.
 
+#### List Invoices
+![List Invoice](./Screenshots/14.png)
+
 #### Create Invoice
-![Create Invoice](./images/Screenshot_2025-02-14_175434.png)
+![Create Invoice](./Screenshots/11.png)
 
 #### Edit Invoice
-![Edit Invoice](./images/Screenshot_2025-02-14_180911.png)
+![Edit Invoice](./Screenshots/12.png)
 
 #### View Invoice
-![View Invoice](./images/screencapture-localhost-4200-2025-02-14-17_51_10.png)
+![View Invoice](./Screenshots/13.png)
 
 ---
 
-### 5. Customer Management
-- Supports **creating and editing customer details** including **name, email, mobile number, and address**.
+### 7. Payments Management
+- Displays a list of invoices with payment details, including **Invoice No, Payment Reference, Payment Date, and Amount**.
+- Provides action buttons to **view, edit, or delete** payment entries.
 
-#### Create Customer
-![Create Customer](./images/Screenshot_2025-02-14_175535.png)
+#### Payment List View
+![Payment List](./Screenshots/16.png)
 
-#### Edit Customer
-![Edit Customer](./images/Screenshot_2025-02-14_175605.png)
+#### Creaate Payment Details Modal
+![Create Payment](./Screenshots/17.png)
+
+#### View Payment Details Modal
+![View Payment](./Screenshots/18.png)
 
 ---
 
-### 6. Notifications & System Feedback
+### 8. Notifications & System Feedback
 - Provides **real-time success notifications** for various actions like **updating invoices**.
 
 #### Success Notification
-![Success Message](./images/Screenshot_2025-02-14_175702.png)
+![Success Message](./Screenshots/19.png)
 
 ---
 
-### 7. Quick Access Menu
+### 9. Quick Access Menu
 - A **dropdown menu** for quick creation of **Invoices, Quotations, Customers, Vehicles, and Products**.
 
 #### Quick Access Dropdown
-![Quick Access](./images/Screenshot_2025-02-14_175511.png)
+![Quick Access](./Screenshots/20.png)
+
+---
+
+### 10. Login
+- A **Login page** for authentication.
+
+#### Quick Access Dropdown
+![Login](./Screenshots/21.png)
+
+---
+
+### 11. Email Template
+- A **Email template page** for invoice.
+
+#### Email Template
+![email](./Screenshots/22.png)
+
 
 ## Tech Stack
 - **Frontend:** Angular 17
